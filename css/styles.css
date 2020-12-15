@@ -1,0 +1,196 @@
+:root {
+  --main-background-color: #ffffff;
+  --dark-background-color: #2f303a;
+  --blue-light-color: #2196f3;
+
+  --text-color-white: var(--main-background-color);
+  --text-color-dark: #212121;
+  --text-color-gray: #757575;
+  --text-color-lightblue: #2196f3;
+  --text-color-black: #000000;
+  --text-color-grey-through: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background: var(--main-background-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background: var(--dark-background-color);
+}
+
+nav .links.current {
+  color: var(--blue-light-color);
+}
+
+/* header */
+
+.header-color {
+  background: var(--main-background-color);
+}
+
+/*logo*/
+.web-color {
+  color: var(--text-color-lightblue);
+}
+.studio-color {
+  color: var(--text-color-black);
+}
+.text-decor {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+/* contacts */
+.phone-color {
+  color: var(--text-color-gray);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.phone-color:hover,
+.phone-color:focus {
+  color: var(--text-color-lightblue);
+}
+
+.links {
+  color: var(--text-color-dark);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.links:hover,
+.links:focus {
+  color: var(--text-color-lightblue);
+}
+
+/* footer */
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--main-background-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-web {
+  color: var(--text-color-lightblue);
+}
+
+.address-decor {
+  color: var(--text-color-white);
+  font-style: normal;
+}
+
+.footer-mail,
+.footer-phone {
+  text-decoration: none;
+  color: var(--text-color-grey-through);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--text-color-lightblue);
+}
+
+.footer-phone:hover,
+.footer-phone:focus {
+  color: var(--text-color-lightblue);
+}
+
+/* main section */
+.main-section {
+  background-color: var(--dark-background-color);
+}
+
+.hedline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-white);
+  text-transform: uppercase;
+}
+.order {
+  color: var(--text-color-white);
+  background-color: var(--blue-light-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+}
+
+/* our servises */
+.text-color {
+  color: var(--text-color-gray);
+
+  line-height: 1.71;
+}
+.ourquality {
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+/* what do we do */
+.whatwedo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/*  our collegues  */
+.names {
+  font-weight: 500;
+}
+.occupation {
+  color: var(--text-color-gray);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*  portfolio buttons  */
+.buttons {
+  color: var(--text-color-dark);
+}
+/* active пробовала поставить не работает почемуто */
+.buttons:hover,
+.buttons:focus {
+  color: var(--text-color-white);
+  background-color: var(--text-color-lightblue);
+}
+.supply-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text-color {
+  color: var(--text-color-gray);
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* portfolio links */
+.lidecor {
+  text-decoration: none;
+  color: var(--text-color-dark);
+}
