@@ -42,7 +42,21 @@ nav .links.current {
   color: var(--blue-light-color);
 }
 
+/* common */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* header */
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
 
 .header-color {
   background: var(--main-background-color);
@@ -54,6 +68,7 @@ nav .links.current {
 }
 .studio-color {
   color: var(--text-color-black);
+  margin-right: 93px;
 }
 .text-decor {
   font-family: "Raleway", sans-serif;
@@ -63,6 +78,24 @@ nav .links.current {
   font-size: 26px;
   line-height: 31px;
 }
+.nav-top {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-links .head-items {
+  margin-right: 50px;
+}
+.nav-links .head-items:last-child {
+  margin-right: 0;
+}
+
 /* contacts */
 .phone-color {
   color: var(--text-color-gray);
@@ -82,6 +115,8 @@ nav .links.current {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .links:hover,
@@ -145,6 +180,7 @@ nav .links.current {
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: none;
+  cursor: pointer;
 }
 
 /* our servises */
@@ -180,6 +216,7 @@ nav .links.current {
 /*  portfolio buttons  */
 .buttons {
   color: var(--text-color-dark);
+  cursor: pointer;
 }
 /* active пробовала поставить не работает почемуто */
 .buttons:hover,
