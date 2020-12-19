@@ -218,6 +218,9 @@ nav .links.current {
 .buttons {
   color: var(--text-color-dark);
   cursor: pointer;
+  margin-top: 94px;
+  margin-right: 8px;
+  margin-bottom: 34px;
 }
 /* active пробовала поставить не работает почемуто */
 .buttons:hover,
