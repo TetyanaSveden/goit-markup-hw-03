@@ -49,14 +49,17 @@ nav .links.current {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 /* header */
 .container {
   display: flex;
-  justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.head {
+  justify-content: space-between;
 }
 
 .header-color {
@@ -126,6 +129,15 @@ nav .links.current {
 }
 
 /* footer */
+.footer-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   color: var(--main-background-color);
@@ -133,6 +145,8 @@ nav .links.current {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  display: block;
+  margin-bottom: 20px;
 }
 .footer-web {
   color: var(--text-color-lightblue);
@@ -141,6 +155,7 @@ nav .links.current {
 .address-decor {
   color: var(--text-color-white);
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .footer-mail,
@@ -157,6 +172,12 @@ nav .links.current {
 .footer-phone:hover,
 .footer-phone:focus {
   color: var(--text-color-lightblue);
+}
+.footer-contakt {
+  margin-bottom: 9px;
+}
+.footer-contakt:last-child {
+  margin-bottom: 60px;
 }
 
 /* main section */
@@ -195,6 +216,15 @@ nav .links.current {
   line-height: 16px;
   text-transform: uppercase;
 }
+.service-list {
+  width: 270px;
+  height: 101px;
+  margin-top: 94px;
+  margin-right: 30px;
+}
+.service-list:last-child {
+  margin-right: 0%;
+}
 
 /* what do we do */
 .whatwedo {
@@ -202,16 +232,40 @@ nav .links.current {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.pic-list {
+  width: 370px;
+  height: 294px;
+  margin-right: 30px;
+}
+.pic-list:last-child {
+  margin-right: 0;
 }
 
 /*  our collegues  */
 .names {
   font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .occupation {
   color: var(--text-color-gray);
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.collegues-list {
+  width: 270px;
+  height: 368px;
+  margin-right: 30px;
+}
+.collegues-list:last-child {
+  margin-right: 0;
 }
 
 /*  portfolio buttons  */
