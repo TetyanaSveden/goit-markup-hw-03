@@ -133,6 +133,7 @@ nav .links.current {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
@@ -147,6 +148,7 @@ nav .links.current {
   line-height: 1.19;
   display: block;
   margin-bottom: 20px;
+  padding-top: 60px;
 }
 .footer-web {
   color: var(--text-color-lightblue);
@@ -173,6 +175,7 @@ nav .links.current {
 .footer-phone:focus {
   color: var(--text-color-lightblue);
 }
+
 .footer-contakt {
   margin-bottom: 9px;
 }
@@ -212,9 +215,10 @@ nav .links.current {
   line-height: 1.71;
 }
 .ourquality {
+  text-transform: uppercase;
   font-weight: bold;
   line-height: 16px;
-  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .service-list {
   width: 270px;
@@ -263,9 +267,17 @@ nav .links.current {
   width: 270px;
   height: 368px;
   margin-right: 30px;
+  margin-bottom: 94px;
 }
 .collegues-list:last-child {
   margin-right: 0;
+}
+.shadow {
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*  portfolio buttons  */
