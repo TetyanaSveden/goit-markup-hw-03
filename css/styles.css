@@ -349,7 +349,5 @@ nav .links.current {
   margin-bottom: 0;
 }
 .text-links {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
+padding: 20px 24px;
 }
