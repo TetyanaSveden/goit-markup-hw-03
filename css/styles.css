@@ -190,7 +190,7 @@ nav .links.current {
   background-color: var(--dark-background-color);
 }
 
-.hedline {
+.headline {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -216,7 +216,6 @@ nav .links.current {
 /* our servises */
 .text-color {
   color: var(--text-color-gray);
-
   line-height: 1.71;
 }
 .ourquality {
