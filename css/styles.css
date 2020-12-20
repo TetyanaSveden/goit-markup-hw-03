@@ -43,20 +43,11 @@ nav .links.current {
   color: var(--blue-light-color);
 }
 
-/* common */
-.container-flex {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 /* header */
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
 .head {
@@ -134,7 +125,7 @@ nav .links.current {
 /* footer */
 .footer-container {
   width: 1200px;
-padding: 60px 15px;
+  padding: 60px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,7 +139,6 @@ padding: 60px 15px;
   line-height: 1.19;
   display: block;
   margin-bottom: 20px;
-
 }
 .footer-web {
   color: var(--text-color-lightblue);
@@ -188,6 +178,7 @@ padding: 60px 15px;
   background-color: var(--dark-background-color);
 }
 /* фонт задан по макету но не срабатывает  */
+
 .headline {
   font-weight: 900;
   font-size: 44px;
@@ -231,9 +222,8 @@ padding: 60px 15px;
   margin-right: 0%;
 }
 .services {
-padding-top: 94px;
+  padding-top: 94px;
 }
-
 
 /* what do we do */
 .whatwedo {
@@ -275,7 +265,6 @@ padding-top: 94px;
   width: 270px;
   height: 368px;
   margin-right: 30px;
-
 }
 .collegues-list:last-child {
   margin-right: 0;
@@ -330,7 +319,9 @@ padding-top: 94px;
   font-size: 16px;
   line-height: 1.87;
 }
+
 /* portfolio links */
+
 .lidecor {
   text-decoration: none;
   color: var(--text-color-dark);
@@ -356,5 +347,5 @@ padding-top: 94px;
   margin-bottom: 0;
 }
 .text-links {
-padding: 20px 24px;
+  padding: 20px 24px;
 }
