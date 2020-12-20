@@ -211,7 +211,7 @@ padding: 60px 15px;
   border-radius: 4px;
 }
 
-/* our servises */
+/* our services */
 .text-color {
   color: var(--text-color-gray);
   line-height: 1.71;
@@ -225,11 +225,13 @@ padding: 60px 15px;
 .service-list {
   width: 270px;
   height: 101px;
-  margin-top: 94px;
   margin-right: 30px;
 }
 .service-list:last-child {
   margin-right: 0%;
+}
+.services {
+padding-top: 94px;
 }
 
 /* what do we do */
