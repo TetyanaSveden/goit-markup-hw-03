@@ -179,6 +179,15 @@ nav .links.current {
 }
 /* фонт задан по макету но не срабатывает  */
 
+.container-flex {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .headline {
   font-weight: 900;
   font-size: 44px;
@@ -195,6 +204,7 @@ nav .links.current {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   border: none;
   cursor: pointer;
   width: 200px;
