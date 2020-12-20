@@ -189,7 +189,7 @@ nav .links.current {
 .main-section {
   background-color: var(--dark-background-color);
 }
-
+/* фонт задан по макету но не срабатывает  */
 .headline {
   font-weight: 900;
   font-size: 44px;
