@@ -54,14 +54,15 @@ nav .links.current {
 }
 /* header */
 .container {
-  display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
-  border-bottom: 1px solid var(--line-color);
+  padding: 0 15px; 
 }
+
 .head {
   justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid var(--line-color);
 }
 
 .header-color {
@@ -92,10 +93,10 @@ nav .links.current {
 .nav-links {
   display: flex;
   align-items: center;
-}
-.nav-links .head-items {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.nav-links .head-items {
   margin-right: 50px;
 }
 .nav-links .head-items:last-child {
@@ -239,6 +240,9 @@ padding: 60px 15px;
   text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
+}
+.what-we-do-list {
+  display: flex;
 }
 .pic-list {
   width: 370px;
