@@ -302,9 +302,8 @@ nav .links.current {
   justify-content: center;
 }
 .buttons-flex {
-  padding-top: 94px;
-  padding-right: 8px;
-  padding-bottom: 34px;
+  margin-right: 8px;
+  margin-bottom: 34px;
 }
 .buttons-flex:last-child {
   padding-right: 0;
@@ -324,6 +323,7 @@ nav .links.current {
 }
 
 /* portfolio links */
+
 .container-portfolio {
   width: 1200px;
   padding-left: 15px;
@@ -331,6 +331,8 @@ nav .links.current {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .lidecor {
