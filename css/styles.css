@@ -331,6 +331,14 @@ nav .links.current {
 }
 
 /* portfolio links */
+.container-portfolio {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .lidecor {
   text-decoration: none;
