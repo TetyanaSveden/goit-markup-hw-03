@@ -257,7 +257,6 @@ nav .links.current {
 .names {
   font-weight: 500;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .occupation {
@@ -265,7 +264,12 @@ nav .links.current {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  margin-bottom: 10px;
+}
+.name-ocupation {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .collegues-list {
